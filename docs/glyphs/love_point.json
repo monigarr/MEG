@@ -1,0 +1,43 @@
+{
+  "id": "love_point",
+  "shortcode": ":love_point:",
+  "codepoint": "U+E00F",
+  "category": "Culture",
+  "meanings": {
+    "visual": "A heart with a base point.",
+    "semantic": "Marks appreciation or values-aligned care.",
+    "engineering": "Highlight people-first or care-driven engineering choices."
+  },
+  "accessibility": {
+    "name": "Love point",
+    "description": "Indicates appreciation or care-centered emphasis."
+  },
+  "ai": {
+    "intent": "Keep tone appreciative without weakening requirements.",
+    "llmInstructions": "Acknowledge :love_point: appreciation; do not treat it as a technical constraint.",
+    "recommendedPrompts": [
+      "Draft a kudos note for the :love_point: contribution."
+    ],
+    "engineeringContext": "Team kudos, human-centered design callouts."
+  },
+  "usage": {
+    "recommended": "Use :love_point: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :love_point:"
+    ]
+  },
+  "aliases": [],
+  "keywords": [
+    "appreciation",
+    "care",
+    "values"
+  ],
+  "tags": [
+    "culture",
+    "human-centered"
+  ],
+  "asset": {
+    "svg": "assets/love_point.svg"
+  }
+}

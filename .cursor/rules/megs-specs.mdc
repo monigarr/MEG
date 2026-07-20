@@ -1,0 +1,13 @@
+---
+description: Authoring rules for MEGS specification documents
+globs: docs/megs/**
+alwaysApply: false
+---
+
+# MEGS authoring (MEGS-0007)
+
+- Use MUST / SHOULD / MAY consistently; avoid vague “maybe” norms.
+- Bump the spec `Version` on every normative edit (MAJOR/MINOR/PATCH per `docs/megs/README.md`).
+- MUST NOT land silent breaking changes; add a migration note when MUST rules change.
+- Keep examples non-normative unless labeled as requirements.
+- Cross-link related MEGS ids instead of duplicating large sections.

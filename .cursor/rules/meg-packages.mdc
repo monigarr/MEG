@@ -1,0 +1,15 @@
+---
+description: Forward-looking conventions for future MEG packages
+globs: packages/**
+alwaysApply: false
+---
+
+# Packages (future)
+
+When `packages/` is scaffolded:
+
+- TypeScript, ESM-first, tree-shakeable exports; generate typings.
+- Icon components MUST accept an accessible name path (ARIA / title).
+- Use `currentColor`; do not hardcode theme palettes in components.
+- Prefer SSR-safe React/Vue/Svelte/web-component builds.
+- Do not add a package without matching docs and tests in the same change set when releasing.

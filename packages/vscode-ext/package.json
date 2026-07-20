@@ -1,0 +1,40 @@
+{
+  "name": "monigarr-meg",
+  "displayName": "MoniGarr Engineering Glyphs",
+  "description": "MEG shortcode autocomplete and hover docs for Markdown",
+  "version": "0.0.0",
+  "private": true,
+  "publisher": "monigarr",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "meg.insertAuthority",
+        "title": "MEG: Insert :authority:"
+      },
+      {
+        "command": "meg.insertCertitude",
+        "title": "MEG: Insert :certitude:"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node ./build.mjs",
+    "vscode:prepublish": "pnpm run build"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0"
+  },
+  "dependencies": {
+    "@monigarr/meg-parser": "workspace:*"
+  }
+}

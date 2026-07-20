@@ -1,0 +1,22 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+*.log
+.env
+.env.*
+
+# Build outputs
+assets/optimized/
+packages/*/dist/
+packages/font/dist/
+packages/parser/src/glyph-map.generated.ts
+packages/react/src/icons.generated.tsx
+packages/vue/src/icons.generated.ts
+packages/svelte/src/lib/icons.generated.ts
+packages/vscode-ext/out/
+packages/obsidian-plugin/main.js
+packages/obsidian-plugin/main.js.map
+
+# pnpm
+.pnpm-store/

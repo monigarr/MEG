@@ -1,0 +1,36 @@
+{
+  "name": "monigarr-meg",
+  "private": true,
+  "version": "0.0.0",
+  "description": "MoniGarr Engineering Glyphs (MEG) monorepo",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "optimize": "node scripts/optimize-svgs.mjs",
+    "build:fonts": "node scripts/build-fonts.mjs",
+    "build:maps": "node scripts/generate-maps.mjs",
+    "build:packages": "pnpm --filter @monigarr/meg-parser --filter @monigarr/meg-svg --filter @monigarr/meg-font --filter @monigarr/meg-react --filter @monigarr/meg-vue --filter @monigarr/meg-svelte --filter monigarr-meg --filter obsidian-monigarr-meg run build",
+    "build": "pnpm run optimize && pnpm run build:fonts && pnpm run build:maps && pnpm run build:packages",
+    "validate": "node scripts/validate.mjs",
+    "test": "vitest run",
+    "ci": "pnpm run validate && pnpm run build && pnpm run test",
+    "sync-version": "node scripts/sync-version-from-tag.mjs",
+    "seed:glyphs": "node scripts/seed-glyph-docs.mjs"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "esbuild": "^0.24.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "svelte": "^5.19.0",
+    "svgo": "^3.3.2",
+    "svgtofont": "^4.2.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5",
+    "vue": "^3.5.13"
+  }
+}

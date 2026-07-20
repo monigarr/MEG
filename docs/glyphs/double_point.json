@@ -1,0 +1,45 @@
+{
+  "id": "double_point",
+  "shortcode": ":double_point:",
+  "codepoint": "U+E006",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A question-like curve with two emphasis points.",
+    "semantic": "Signals dual emphasis or a compound inquiry.",
+    "engineering": "Flag statements that carry two linked concerns needing dual resolution."
+  },
+  "accessibility": {
+    "name": "Double point",
+    "description": "Indicates dual emphasis or compound inquiry."
+  },
+  "ai": {
+    "intent": "Ensure both linked concerns are addressed.",
+    "llmInstructions": "Answer both facets implied by :double_point:; do not drop the second concern.",
+    "recommendedPrompts": [
+      "Address both sides of the :double_point: question."
+    ],
+    "engineeringContext": "Incident notes with dual root causes, paired acceptance criteria."
+  },
+  "usage": {
+    "recommended": "Use :double_point: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :double_point:"
+    ]
+  },
+  "aliases": [
+    "doublepoint"
+  ],
+  "keywords": [
+    "emphasis",
+    "compound",
+    "inquiry"
+  ],
+  "tags": [
+    "communication",
+    "language"
+  ],
+  "asset": {
+    "svg": "assets/double_point.svg"
+  }
+}

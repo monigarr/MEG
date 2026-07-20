@@ -1,0 +1,19 @@
+---
+description: Production SVG constraints for MEG glyphs
+globs: assets/**/*.svg,packages/**/*.svg
+alwaysApply: false
+---
+
+# MEG SVG (MEGS-0001 / 0006)
+
+- MUST: `viewBox="0 0 64 64"`
+- MUST: primary geometry uses `currentColor`
+- MUST: default `stroke-width="2.5"` unless metadata documents an exception
+- SHOULD: root `fill="none"` when stroke-led
+- MUST NOT: editor namespaces, scripts, rasters, hard-coded theme colors for meaning
+- Filename MUST be `snake_case.svg` matching glyph `id`
+
+```xml
+<!-- ✅ GOOD -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5">
+```

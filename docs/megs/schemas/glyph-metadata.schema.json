@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://monigarr.engineering/megs/schemas/glyph-metadata.schema.json",
+  "title": "MEG Glyph Metadata",
+  "description": "Machine-readable metadata for a MoniGarr Engineering Glyph (MEGS-0004).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "shortcode",
+    "category",
+    "meanings",
+    "accessibility",
+    "ai",
+    "aliases",
+    "keywords",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Canonical snake_case glyph id; must match SVG filename without extension."
+    },
+    "shortcode": {
+      "type": "string",
+      "pattern": "^:[a-z][a-z0-9_]*:$",
+      "description": "Primary shortcode in :id: form."
+    },
+    "codepoint": {
+      "type": ["string", "null"],
+      "pattern": "^U\\+[0-9A-F]{4,6}$",
+      "description": "Unicode PUA codepoint when assigned (e.g. U+E001)."
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary semantic category from MEGS-0002."
+    },
+    "meanings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["visual", "semantic", "engineering"],
+      "properties": {
+        "visual": { "type": "string", "minLength": 1 },
+        "semantic": { "type": "string", "minLength": 1 },
+        "engineering": { "type": "string", "minLength": 1 }
+      }
+    },
+    "accessibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "description"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 }
+      }
+    },
+    "ai": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "intent",
+        "llmInstructions",
+        "recommendedPrompts",
+        "engineeringContext"
+      ],
+      "properties": {
+        "intent": { "type": "string", "minLength": 1 },
+        "llmInstructions": { "type": "string", "minLength": 1 },
+        "recommendedPrompts": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "engineeringContext": { "type": "string", "minLength": 1 }
+      }
+    },
+    "usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "recommended": { "type": "string" },
+        "notRecommended": { "type": "string" },
+        "examples": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "svg": { "type": "string", "description": "Relative path to SVG asset." }
+      }
+    }
+  }
+}

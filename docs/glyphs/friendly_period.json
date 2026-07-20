@@ -1,0 +1,43 @@
+{
+  "id": "friendly_period",
+  "shortcode": ":friendly_period:",
+  "codepoint": "U+E00A",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A period with a smile arc.",
+    "semantic": "Warm closure—complete but collegial.",
+    "engineering": "Use for resolved items communicated with psychological safety."
+  },
+  "accessibility": {
+    "name": "Friendly period",
+    "description": "Indicates warm, complete closure."
+  },
+  "ai": {
+    "intent": "Close topics with a constructive tone.",
+    "llmInstructions": "When :friendly_period: appears, prefer affirming closure language without reopening scope.",
+    "recommendedPrompts": [
+      "Summarize the closed :friendly_period: item positively."
+    ],
+    "engineeringContext": "Retrospective closings, resolved support threads."
+  },
+  "usage": {
+    "recommended": "Use :friendly_period: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :friendly_period:"
+    ]
+  },
+  "aliases": [],
+  "keywords": [
+    "closure",
+    "tone",
+    "complete"
+  ],
+  "tags": [
+    "communication",
+    "culture"
+  ],
+  "asset": {
+    "svg": "assets/friendly_period.svg"
+  }
+}

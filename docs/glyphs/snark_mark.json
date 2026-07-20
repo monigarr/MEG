@@ -1,0 +1,45 @@
+{
+  "id": "snark_mark",
+  "shortcode": ":snark_mark:",
+  "codepoint": "U+E012",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A question-like form with X ticks.",
+    "semantic": "Marks snarky or cutting commentary.",
+    "engineering": "Separate tone from actionable defect reports."
+  },
+  "accessibility": {
+    "name": "Snark mark",
+    "description": "Indicates snarky commentary."
+  },
+  "ai": {
+    "intent": "Extract substance from snark without amplifying hostility.",
+    "llmInstructions": "Translate :snark_mark: into neutral actionable findings; avoid matching the snark.",
+    "recommendedPrompts": [
+      "Neutralize the :snark_mark: comment into a defect description."
+    ],
+    "engineeringContext": "Code review banter, retrospective notes."
+  },
+  "usage": {
+    "recommended": "Use :snark_mark: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :snark_mark:"
+    ]
+  },
+  "aliases": [
+    "snark"
+  ],
+  "keywords": [
+    "tone",
+    "critique",
+    "review"
+  ],
+  "tags": [
+    "communication",
+    "culture"
+  ],
+  "asset": {
+    "svg": "assets/snark_mark.svg"
+  }
+}

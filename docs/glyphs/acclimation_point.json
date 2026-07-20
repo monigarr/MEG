@@ -1,0 +1,45 @@
+{
+  "id": "acclimation_point",
+  "shortcode": ":acclimation_point:",
+  "codepoint": "U+E003",
+  "category": "Workflow",
+  "meanings": {
+    "visual": "A stem with radiating ticks suggesting adaptation over time.",
+    "semantic": "Signals a period of adjustment or onboarding into a system.",
+    "engineering": "Mark docs or steps that require gradual familiarization before full autonomy."
+  },
+  "accessibility": {
+    "name": "Acclimation point",
+    "description": "Indicates an adjustment or onboarding phase."
+  },
+  "ai": {
+    "intent": "Prefer guided, incremental changes during acclimation phases.",
+    "llmInstructions": "When this glyph appears, favor stepwise guidance and avoid assuming full operator expertise.",
+    "recommendedPrompts": [
+      "Provide an onboarding path for the :acclimation_point: section."
+    ],
+    "engineeringContext": "Runbooks, new-hire engineering guides, migration warm-up periods."
+  },
+  "usage": {
+    "recommended": "Use :acclimation_point: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :acclimation_point:"
+    ]
+  },
+  "aliases": [
+    "acclimation"
+  ],
+  "keywords": [
+    "onboarding",
+    "adaptation",
+    "warmup"
+  ],
+  "tags": [
+    "workflow",
+    "human-centered"
+  ],
+  "asset": {
+    "svg": "assets/acclimation_point.svg"
+  }
+}

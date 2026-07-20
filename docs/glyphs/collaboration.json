@@ -1,0 +1,45 @@
+{
+  "id": "collaboration",
+  "shortcode": ":collaboration:",
+  "codepoint": "U+E005",
+  "category": "Community",
+  "meanings": {
+    "visual": "Linked person-nodes suggesting joint work.",
+    "semantic": "Marks multi-party collaboration.",
+    "engineering": "Require coordination across teams or humans+agents before proceeding."
+  },
+  "accessibility": {
+    "name": "Collaboration",
+    "description": "Indicates collaborative engineering work."
+  },
+  "ai": {
+    "intent": "Surface the need for multi-stakeholder input.",
+    "llmInstructions": "Do not finalize decisions alone; note required collaborators.",
+    "recommendedPrompts": [
+      "Who must review the :collaboration: item?"
+    ],
+    "engineeringContext": "RFCs, cross-team interfaces, pair-design sessions."
+  },
+  "usage": {
+    "recommended": "Use :collaboration: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :collaboration:"
+    ]
+  },
+  "aliases": [
+    "collab"
+  ],
+  "keywords": [
+    "team",
+    "coordination",
+    "review"
+  ],
+  "tags": [
+    "community",
+    "workflow"
+  ],
+  "asset": {
+    "svg": "assets/collaboration.svg"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "agent",
+  "shortcode": ":agent:",
+  "codepoint": "U+E004",
+  "category": "AI",
+  "meanings": {
+    "visual": "A face-like mark representing an autonomous agent.",
+    "semantic": "Identifies content owned or produced by an AI agent.",
+    "engineering": "Scope following instructions as agent-executable work with explicit boundaries."
+  },
+  "accessibility": {
+    "name": "Agent",
+    "description": "Indicates an autonomous AI agent context."
+  },
+  "ai": {
+    "intent": "Clarify that the adjacent work is agent-driven and must respect human gates.",
+    "llmInstructions": "Treat marked content as agent scope; do not bypass human-approval or governance glyphs nearby.",
+    "recommendedPrompts": [
+      "List safe actions for the :agent: scope."
+    ],
+    "engineeringContext": "Agent runbooks, tool policies, autonomous pipeline stages."
+  },
+  "usage": {
+    "recommended": "Use :agent: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :agent:"
+    ]
+  },
+  "aliases": [
+    "autonomous_agent"
+  ],
+  "keywords": [
+    "agent",
+    "autonomous",
+    "llm"
+  ],
+  "tags": [
+    "ai",
+    "ai-native"
+  ],
+  "asset": {
+    "svg": "assets/agent.svg"
+  }
+}

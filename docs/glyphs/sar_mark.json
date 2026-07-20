@@ -1,0 +1,46 @@
+{
+  "id": "sar_mark",
+  "shortcode": ":sar_mark:",
+  "codepoint": "U+E011",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A question-like form with a smile arc (sarcasm cue).",
+    "semantic": "Marks sarcastic tone.",
+    "engineering": "Do not treat sarcastic statements as formal requirements."
+  },
+  "accessibility": {
+    "name": "Sar mark",
+    "description": "Indicates sarcastic tone."
+  },
+  "ai": {
+    "intent": "Prevent sarcastic text from being executed as truth.",
+    "llmInstructions": "Under :sar_mark:, discount literal commands; ask for clarified intent.",
+    "recommendedPrompts": [
+      "Rewrite the :sar_mark: note as a literal requirement if one exists."
+    ],
+    "engineeringContext": "Chat logs pasted into tickets, informal reviews."
+  },
+  "usage": {
+    "recommended": "Use :sar_mark: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :sar_mark:"
+    ]
+  },
+  "aliases": [
+    "sarmark",
+    "sarcasm"
+  ],
+  "keywords": [
+    "sarcasm",
+    "tone",
+    "nonliteral"
+  ],
+  "tags": [
+    "communication",
+    "language"
+  ],
+  "asset": {
+    "svg": "assets/sar_mark.svg"
+  }
+}

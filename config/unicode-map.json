@@ -1,0 +1,78 @@
+{
+  "authority_mark": {
+    "codepoint": "U+E001",
+    "shortcodes": [":authority:", ":authority_mark:"]
+  },
+  "certitude_point": {
+    "codepoint": "U+E002",
+    "shortcodes": [":certitude:", ":certitude_point:"]
+  },
+  "acclimation_point": {
+    "codepoint": "U+E003",
+    "shortcodes": [":acclimation_point:"]
+  },
+  "agent": {
+    "codepoint": "U+E004",
+    "shortcodes": [":agent:"]
+  },
+  "collaboration": {
+    "codepoint": "U+E005",
+    "shortcodes": [":collaboration:"]
+  },
+  "double_point": {
+    "codepoint": "U+E006",
+    "shortcodes": [":double_point:"]
+  },
+  "elray": {
+    "codepoint": "U+E007",
+    "shortcodes": [":elray:"]
+  },
+  "exclamation_comma": {
+    "codepoint": "U+E008",
+    "shortcodes": [":exclamation_comma:"]
+  },
+  "explainability": {
+    "codepoint": "U+E009",
+    "shortcodes": [":explainability:"]
+  },
+  "friendly_period": {
+    "codepoint": "U+E00A",
+    "shortcodes": [":friendly_period:"]
+  },
+  "governance": {
+    "codepoint": "U+E00B",
+    "shortcodes": [":governance:"]
+  },
+  "human_judgement": {
+    "codepoint": "U+E00C",
+    "shortcodes": [":human_judgement:"]
+  },
+  "insight": {
+    "codepoint": "U+E00D",
+    "shortcodes": [":insight:"]
+  },
+  "irony_mark": {
+    "codepoint": "U+E00E",
+    "shortcodes": [":irony_mark:"]
+  },
+  "love_point": {
+    "codepoint": "U+E00F",
+    "shortcodes": [":love_point:"]
+  },
+  "question_comma": {
+    "codepoint": "U+E010",
+    "shortcodes": [":question_comma:"]
+  },
+  "sar_mark": {
+    "codepoint": "U+E011",
+    "shortcodes": [":sar_mark:"]
+  },
+  "snark_mark": {
+    "codepoint": "U+E012",
+    "shortcodes": [":snark_mark:"]
+  },
+  "specification": {
+    "codepoint": "U+E013",
+    "shortcodes": [":specification:"]
+  }
+}

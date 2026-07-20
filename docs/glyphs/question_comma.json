@@ -1,0 +1,43 @@
+{
+  "id": "question_comma",
+  "shortcode": ":question_comma:",
+  "codepoint": "U+E010",
+  "category": "Communication",
+  "meanings": {
+    "visual": "Question mark fused with a comma.",
+    "semantic": "An open question that continues the discussion.",
+    "engineering": "Track unanswered questions that block or inform the next step."
+  },
+  "accessibility": {
+    "name": "Question comma",
+    "description": "Indicates an open continuing question."
+  },
+  "ai": {
+    "intent": "Keep open questions visible until resolved.",
+    "llmInstructions": "Do not close :question_comma: items without an answer or explicit deferral.",
+    "recommendedPrompts": [
+      "List open :question_comma: items and owners."
+    ],
+    "engineeringContext": "Design docs, RFC discussion threads."
+  },
+  "usage": {
+    "recommended": "Use :question_comma: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :question_comma:"
+    ]
+  },
+  "aliases": [],
+  "keywords": [
+    "question",
+    "open",
+    "discussion"
+  ],
+  "tags": [
+    "communication",
+    "workflow"
+  ],
+  "asset": {
+    "svg": "assets/question_comma.svg"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "exclamation_comma",
+  "shortcode": ":exclamation_comma:",
+  "codepoint": "U+E008",
+  "category": "Communication",
+  "meanings": {
+    "visual": "Exclamation combined with a comma stroke.",
+    "semantic": "Excited continuation—urgency without ending the thought.",
+    "engineering": "Mark urgent inline notes that still require follow-through."
+  },
+  "accessibility": {
+    "name": "Exclamation comma",
+    "description": "Indicates urgent continuation within a statement."
+  },
+  "ai": {
+    "intent": "Preserve urgency while continuing the workflow.",
+    "llmInstructions": "Treat :exclamation_comma: as high priority but incomplete—propose next actions.",
+    "recommendedPrompts": [
+      "What follow-up does the :exclamation_comma: note require?"
+    ],
+    "engineeringContext": "Hotfix annotations, release-train urgency notes."
+  },
+  "usage": {
+    "recommended": "Use :exclamation_comma: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :exclamation_comma:"
+    ]
+  },
+  "aliases": [],
+  "keywords": [
+    "urgency",
+    "continuation",
+    "priority"
+  ],
+  "tags": [
+    "communication",
+    "workflow"
+  ],
+  "asset": {
+    "svg": "assets/exclamation_comma.svg"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "acclimation_point": {
+    "id": "acclimation_point",
+    "codepoint": "U+E003",
+    "code": 57347,
+    "char": "",
+    "shortcodes": [
+      ":acclimation_point:"
+    ]
+  },
+  "agent": {
+    "id": "agent",
+    "codepoint": "U+E004",
+    "code": 57348,
+    "char": "",
+    "shortcodes": [
+      ":agent:"
+    ]
+  },
+  "authority_mark": {
+    "id": "authority_mark",
+    "codepoint": "U+E001",
+    "code": 57345,
+    "char": "",
+    "shortcodes": [
+      ":authority:",
+      ":authority_mark:"
+    ]
+  },
+  "certitude_point": {
+    "id": "certitude_point",
+    "codepoint": "U+E002",
+    "code": 57346,
+    "char": "",
+    "shortcodes": [
+      ":certitude:",
+      ":certitude_point:"
+    ]
+  },
+  "collaboration": {
+    "id": "collaboration",
+    "codepoint": "U+E005",
+    "code": 57349,
+    "char": "",
+    "shortcodes": [
+      ":collaboration:"
+    ]
+  },
+  "double_point": {
+    "id": "double_point",
+    "codepoint": "U+E006",
+    "code": 57350,
+    "char": "",
+    "shortcodes": [
+      ":double_point:"
+    ]
+  },
+  "elray": {
+    "id": "elray",
+    "codepoint": "U+E007",
+    "code": 57351,
+    "char": "",
+    "shortcodes": [
+      ":elray:"
+    ]
+  },
+  "exclamation_comma": {
+    "id": "exclamation_comma",
+    "codepoint": "U+E008",
+    "code": 57352,
+    "char": "",
+    "shortcodes": [
+      ":exclamation_comma:"
+    ]
+  },
+  "explainability": {
+    "id": "explainability",
+    "codepoint": "U+E009",
+    "code": 57353,
+    "char": "",
+    "shortcodes": [
+      ":explainability:"
+    ]
+  },
+  "friendly_period": {
+    "id": "friendly_period",
+    "codepoint": "U+E00A",
+    "code": 57354,
+    "char": "",
+    "shortcodes": [
+      ":friendly_period:"
+    ]
+  },
+  "governance": {
+    "id": "governance",
+    "codepoint": "U+E00B",
+    "code": 57355,
+    "char": "",
+    "shortcodes": [
+      ":governance:"
+    ]
+  },
+  "human_judgement": {
+    "id": "human_judgement",
+    "codepoint": "U+E00C",
+    "code": 57356,
+    "char": "",
+    "shortcodes": [
+      ":human_judgement:"
+    ]
+  },
+  "insight": {
+    "id": "insight",
+    "codepoint": "U+E00D",
+    "code": 57357,
+    "char": "",
+    "shortcodes": [
+      ":insight:"
+    ]
+  },
+  "irony_mark": {
+    "id": "irony_mark",
+    "codepoint": "U+E00E",
+    "code": 57358,
+    "char": "",
+    "shortcodes": [
+      ":irony_mark:"
+    ]
+  },
+  "love_point": {
+    "id": "love_point",
+    "codepoint": "U+E00F",
+    "code": 57359,
+    "char": "",
+    "shortcodes": [
+      ":love_point:"
+    ]
+  },
+  "question_comma": {
+    "id": "question_comma",
+    "codepoint": "U+E010",
+    "code": 57360,
+    "char": "",
+    "shortcodes": [
+      ":question_comma:"
+    ]
+  },
+  "sar_mark": {
+    "id": "sar_mark",
+    "codepoint": "U+E011",
+    "code": 57361,
+    "char": "",
+    "shortcodes": [
+      ":sar_mark:"
+    ]
+  },
+  "snark_mark": {
+    "id": "snark_mark",
+    "codepoint": "U+E012",
+    "code": 57362,
+    "char": "",
+    "shortcodes": [
+      ":snark_mark:"
+    ]
+  },
+  "specification": {
+    "id": "specification",
+    "codepoint": "U+E013",
+    "code": 57363,
+    "char": "",
+    "shortcodes": [
+      ":specification:"
+    ]
+  }
+}

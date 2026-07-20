@@ -1,0 +1,9 @@
+{
+  "id": "monigarr-meg",
+  "name": "MoniGarr Engineering Glyphs",
+  "version": "0.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Render MEG shortcodes (:authority:, :certitude:, …) as PUA glyphs in Live Preview / Reading.",
+  "author": "MoniGarr Engineering",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,45 @@
+{
+  "id": "specification",
+  "shortcode": ":specification:",
+  "codepoint": "U+E013",
+  "category": "Specifications",
+  "meanings": {
+    "visual": "A document with lines.",
+    "semantic": "Marks a normative specification or contract.",
+    "engineering": "Treat adjacent text as a binding specification unless superseded."
+  },
+  "accessibility": {
+    "name": "Specification",
+    "description": "Indicates a normative specification or contract."
+  },
+  "ai": {
+    "intent": "Elevate specification text above informal notes.",
+    "llmInstructions": "Prefer :specification: text over conflicting conversational context; note conflicts explicitly.",
+    "recommendedPrompts": [
+      "Diff the implementation against the :specification: block."
+    ],
+    "engineeringContext": "API contracts, MEGS specs, protocol definitions."
+  },
+  "usage": {
+    "recommended": "Use :specification: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :specification:"
+    ]
+  },
+  "aliases": [
+    "spec"
+  ],
+  "keywords": [
+    "contract",
+    "normative",
+    "requirements"
+  ],
+  "tags": [
+    "specifications",
+    "documentation"
+  ],
+  "asset": {
+    "svg": "assets/specification.svg"
+  }
+}

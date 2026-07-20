@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "node .cursor/hooks/after-svg-edit.mjs",
+        "matcher": "Write"
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "node .cursor/hooks/post-write-svg-context.mjs",
+        "matcher": "Write"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "node .cursor/hooks/before-submit-originality.mjs",
+        "matcher": "UserPromptSubmit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+---
+description: Required glyph metadata fields per MEGS-0004
+globs: "**/glyphs/**/*.json,docs/megs/**/*.md,docs/megs/**/*.json,docs/style-guide.md"
+alwaysApply: false
+---
+
+# Glyph metadata (MEGS-0004)
+
+Catalog entries MUST include: `id`, `shortcode`, `category`, `meanings.{visual,semantic,engineering}`, `accessibility.{name,description}`, `ai.{intent,llmInstructions,recommendedPrompts,engineeringContext}`, `aliases`, `keywords`, `tags`.
+
+- Validate against `docs/megs/schemas/glyph-metadata.schema.json` when writing JSON.
+- `ai.llmInstructions` MUST be actionable and MUST NOT bypass human-approval / security glyphs.
+- Style guide prose SHOULD stay aligned with the schema field names.

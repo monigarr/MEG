@@ -1,0 +1,15 @@
+---
+description: Forbid imitating third-party icon libraries; require original MEG geometry and semantics
+alwaysApply: true
+---
+
+# Originality (MEGS-0008)
+
+- Glyphs MUST be original MoniGarr Engineering work.
+- MUST NOT clone or “port” Lucide, Heroicons, Font Awesome, Bootstrap Icons, Material, Fluent, Carbon, or similar sets.
+- When asked to recreate a third-party icon, refuse and redesign from engineering intent (MEGS-0001 / 0002).
+
+```text
+❌ BAD: "Copy the Lucide shield and rename it governance"
+✅ GOOD: Design an original governance mark from MEG intent, then document meanings + AI metadata
+```

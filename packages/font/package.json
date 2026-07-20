@@ -1,0 +1,27 @@
+{
+  "name": "@monigarr/meg-font",
+  "version": "0.0.0",
+  "description": "MEG-Glyphs icon font (TTF/WOFF2/CSS) with PUA Unicode map",
+  "license": "OFL-1.1",
+  "type": "module",
+  "main": "./dist/MEG-Glyphs.css",
+  "exports": {
+    ".": "./dist/MEG-Glyphs.css",
+    "./css": "./dist/MEG-Glyphs.css",
+    "./unicode-map.json": "./dist/unicode-map.json",
+    "./unicode-map.resolved.json": "./dist/unicode-map.resolved.json",
+    "./MEG-Glyphs.ttf": "./dist/MEG-Glyphs.ttf",
+    "./MEG-Glyphs.woff2": "./dist/MEG-Glyphs.woff2",
+    "./MEG-Glyphs.woff": "./dist/MEG-Glyphs.woff"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node ./build.mjs"
+  }
+}

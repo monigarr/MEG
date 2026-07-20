@@ -1,0 +1,6 @@
+src/**
+tsconfig.json
+build.mjs
+**/*.map
+**/*.ts
+!out/**

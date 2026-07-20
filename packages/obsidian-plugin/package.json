@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-monigarr-meg",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Obsidian plugin for MEG shortcodes",
+  "main": "main.js",
+  "scripts": {
+    "build": "node ./build.mjs"
+  },
+  "dependencies": {
+    "@monigarr/meg-parser": "workspace:*"
+  },
+  "devDependencies": {
+    "obsidian": "^1.7.2"
+  }
+}

@@ -1,0 +1,17 @@
+---
+description: Core MEG/MEGS project laws, quality bar, and where normative truth lives
+alwaysApply: true
+---
+
+# MEG core
+
+- **MEG** = glyph system. **MEGS** = normative specs in `docs/megs/`. Do not invent competing standards.
+- Quality bar is enterprise craft (Carbon / Primer / Material-class). References are aspirational — never copy third-party icons.
+- Truth map: specs → `docs/megs/`; human overview → `docs/style-guide.md`; SVGs → `assets/`; packages → `packages/` (scaffold only when asked).
+- Commits SHOULD use Conventional Commits (`feat(glyphs):`, `docs(megs):`, `chore:`).
+- Prefer `/meg-new-glyph`, `/meg-validate`, and reviewer subagents over ad-hoc process.
+- Do not scaffold the full monorepo unless the user explicitly asks (skill `meg-bootstrap-monorepo`).
+
+## Philosophy (retain)
+
+Engineering is communication. Specifications are contracts. Architecture is language. Governance enables innovation. Human judgment remains essential. AI amplifies expertise rather than replacing it. Trust is engineered. Quality compounds. Design communicates intent. Language shapes systems.

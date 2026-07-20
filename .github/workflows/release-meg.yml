@@ -1,0 +1,55 @@
+name: Compile Fonts and Publish MEG Packages
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          registry-url: "https://registry.npmjs.org"
+          cache: "pnpm"
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync versions from tag
+        run: node scripts/sync-version-from-tag.mjs
+        env:
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+
+      - name: Validate, build, test
+        run: pnpm run ci
+
+      - name: Publish Packages to npm
+        run: pnpm -r publish --filter "@monigarr/*" --no-git-checks --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            packages/font/dist/MEG-Glyphs.ttf
+            packages/font/dist/MEG-Glyphs.woff2
+            packages/font/dist/MEG-Glyphs.css
+            packages/font/dist/unicode-map.resolved.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

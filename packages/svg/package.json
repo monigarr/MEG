@@ -1,0 +1,27 @@
+{
+  "name": "@monigarr/meg-svg",
+  "version": "0.0.0",
+  "description": "Optimized MoniGarr Engineering Glyph SVGs and glyph catalog JSON",
+  "license": "OFL-1.1",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./glyphs.json": "./dist/glyphs.json",
+    "./*.svg": "./dist/*.svg"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node ./build.mjs"
+  }
+}

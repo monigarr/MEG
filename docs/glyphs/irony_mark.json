@@ -1,0 +1,45 @@
+{
+  "id": "irony_mark",
+  "shortcode": ":irony_mark:",
+  "codepoint": "U+E00E",
+  "category": "Communication",
+  "meanings": {
+    "visual": "Interlocked curves with a base point.",
+    "semantic": "Marks ironic or non-literal tone.",
+    "engineering": "Do not execute ironic statements as literal requirements."
+  },
+  "accessibility": {
+    "name": "Irony mark",
+    "description": "Indicates ironic or non-literal tone."
+  },
+  "ai": {
+    "intent": "Prevent literal misinterpretation of irony.",
+    "llmInstructions": "Treat :irony_mark: content as non-literal; confirm intent before acting.",
+    "recommendedPrompts": [
+      "Clarify the literal intent behind the :irony_mark: note."
+    ],
+    "engineeringContext": "Chat transcripts, informal design banter captured in docs."
+  },
+  "usage": {
+    "recommended": "Use :irony_mark: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :irony_mark:"
+    ]
+  },
+  "aliases": [
+    "irony"
+  ],
+  "keywords": [
+    "tone",
+    "nonliteral",
+    "sarcasm-adjacent"
+  ],
+  "tags": [
+    "communication",
+    "language"
+  ],
+  "asset": {
+    "svg": "assets/irony_mark.svg"
+  }
+}

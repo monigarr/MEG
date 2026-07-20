@@ -1,0 +1,46 @@
+{
+  "id": "explainability",
+  "shortcode": ":explainability:",
+  "codepoint": "U+E009",
+  "category": "AI",
+  "meanings": {
+    "visual": "Linked circles with a side bar suggesting interpretable structure.",
+    "semantic": "Requires explanation suitable for humans and auditors.",
+    "engineering": "Outputs and models nearby must be explainable, not opaque."
+  },
+  "accessibility": {
+    "name": "Explainability",
+    "description": "Indicates a requirement for human-interpretable explanation."
+  },
+  "ai": {
+    "intent": "Demand interpretable rationale.",
+    "llmInstructions": "Provide clear, auditable reasoning; avoid black-box justifications near :explainability:.",
+    "recommendedPrompts": [
+      "Explain the decision path for the :explainability: block."
+    ],
+    "engineeringContext": "Model cards, decision logs, compliance narratives."
+  },
+  "usage": {
+    "recommended": "Use :explainability: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :explainability:"
+    ]
+  },
+  "aliases": [
+    "xai"
+  ],
+  "keywords": [
+    "interpretability",
+    "audit",
+    "rationale"
+  ],
+  "tags": [
+    "ai",
+    "compliance",
+    "ethics"
+  ],
+  "asset": {
+    "svg": "assets/explainability.svg"
+  }
+}

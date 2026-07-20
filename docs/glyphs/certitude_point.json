@@ -1,0 +1,50 @@
+{
+  "id": "certitude_point",
+  "shortcode": ":certitude:",
+  "codepoint": "U+E002",
+  "category": "Quality",
+  "meanings": {
+    "visual": "Represents deterministic output or a fully covered verification block.",
+    "semantic": "Marks logic as deterministic / fully evidenced.",
+    "engineering": "Adjacent logic is proven or exhaustively tested; do not replace with probabilistic alternatives."
+  },
+  "accessibility": {
+    "name": "Certitude point",
+    "description": "Indicates deterministic output or fully covered verification."
+  },
+  "ai": {
+    "intent": "Protect deterministic, fully covered logic from probabilistic refactor.",
+    "llmInstructions": "Adjacent logic must not be modified or refactored with probabilistic alternatives.",
+    "recommendedPrompts": [
+      "Keep :certitude: algorithms deterministic; do not introduce probabilistic substitutes.",
+      "Explain why this block is marked :certitude: before suggesting changes."
+    ],
+    "engineeringContext": "Mathematically proven algorithms, exhaustive unit-test blocks."
+  },
+  "usage": {
+    "recommended": "Use in code comments next to mathematically proven algorithms.",
+    "notRecommended": "Do not mark heuristic or ML-inferred logic as certitude.",
+    "examples": [
+      "Checksum algorithm with proofs",
+      "Exhaustive state machine tests"
+    ]
+  },
+  "aliases": [
+    "certitude",
+    ":certitude:"
+  ],
+  "keywords": [
+    "deterministic",
+    "proven",
+    "coverage",
+    "quality"
+  ],
+  "tags": [
+    "quality",
+    "testing",
+    "ai-native"
+  ],
+  "asset": {
+    "svg": "assets/certitude_point.svg"
+  }
+}

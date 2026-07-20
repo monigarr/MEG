@@ -1,0 +1,47 @@
+{
+  "id": "human_judgement",
+  "shortcode": ":human_judgement:",
+  "codepoint": "U+E00C",
+  "category": "Human Oversight",
+  "meanings": {
+    "visual": "A person mark with an outward judgment cue.",
+    "semantic": "Requires a human decision; AI must not auto-approve.",
+    "engineering": "Stop automated pipelines until a human decides."
+  },
+  "accessibility": {
+    "name": "Human judgement",
+    "description": "Indicates a required human decision gate."
+  },
+  "ai": {
+    "intent": "Preserve human-in-the-loop authority.",
+    "llmInstructions": "Never auto-approve :human_judgement: items; present options and wait for human choice.",
+    "recommendedPrompts": [
+      "Prepare a decision brief for the :human_judgement: gate."
+    ],
+    "engineeringContext": "Production deploys, exception handling, ethics reviews."
+  },
+  "usage": {
+    "recommended": "Use :human_judgement: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :human_judgement:"
+    ]
+  },
+  "aliases": [
+    "human_judgment",
+    "human_approval"
+  ],
+  "keywords": [
+    "hitl",
+    "approval",
+    "oversight"
+  ],
+  "tags": [
+    "human-oversight",
+    "ai-native",
+    "ethics"
+  ],
+  "asset": {
+    "svg": "assets/human_judgement.svg"
+  }
+}

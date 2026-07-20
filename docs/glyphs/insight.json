@@ -1,0 +1,43 @@
+{
+  "id": "insight",
+  "shortcode": ":insight:",
+  "codepoint": "U+E00D",
+  "category": "Knowledge",
+  "meanings": {
+    "visual": "Radiating lines from a center suggesting discovery.",
+    "semantic": "Highlights a non-obvious insight worth preserving.",
+    "engineering": "Capture learning that should inform future design decisions."
+  },
+  "accessibility": {
+    "name": "Insight",
+    "description": "Indicates a noteworthy engineering insight."
+  },
+  "ai": {
+    "intent": "Preserve and amplify non-obvious learnings.",
+    "llmInstructions": "When :insight: appears, extract and restate the insight for reuse; do not bury it.",
+    "recommendedPrompts": [
+      "Turn the :insight: into an ADR bullet."
+    ],
+    "engineeringContext": "Postmortems, research notes, spike outcomes."
+  },
+  "usage": {
+    "recommended": "Use :insight: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :insight:"
+    ]
+  },
+  "aliases": [],
+  "keywords": [
+    "learning",
+    "discovery",
+    "knowledge"
+  ],
+  "tags": [
+    "knowledge",
+    "research"
+  ],
+  "asset": {
+    "svg": "assets/insight.svg"
+  }
+}

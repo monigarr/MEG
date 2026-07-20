@@ -1,0 +1,43 @@
+{
+  "id": "elray",
+  "shortcode": ":elray:",
+  "codepoint": "U+E007",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A reverse-question curve with a base point.",
+    "semantic": "Marks rhetorical or inverted questioning.",
+    "engineering": "Treat as a challenge prompt—validate assumptions rather than accept claims."
+  },
+  "accessibility": {
+    "name": "Elray",
+    "description": "Indicates inverted or rhetorical questioning."
+  },
+  "ai": {
+    "intent": "Provoke assumption checking.",
+    "llmInstructions": "Under :elray:, challenge premises and request evidence before agreeing.",
+    "recommendedPrompts": [
+      "What assumptions does the :elray: mark challenge?"
+    ],
+    "engineeringContext": "Design critiques, threat-model challenges."
+  },
+  "usage": {
+    "recommended": "Use :elray: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :elray:"
+    ]
+  },
+  "aliases": [],
+  "keywords": [
+    "rhetoric",
+    "challenge",
+    "assumption"
+  ],
+  "tags": [
+    "communication",
+    "language"
+  ],
+  "asset": {
+    "svg": "assets/elray.svg"
+  }
+}

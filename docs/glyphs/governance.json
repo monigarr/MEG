@@ -1,0 +1,45 @@
+{
+  "id": "governance",
+  "shortcode": ":governance:",
+  "codepoint": "U+E00B",
+  "category": "Governance",
+  "meanings": {
+    "visual": "A shield shape.",
+    "semantic": "Marks governed process or policy control.",
+    "engineering": "Changes require governance process (review boards, policy checks)."
+  },
+  "accessibility": {
+    "name": "Governance",
+    "description": "Indicates governed policy or process control."
+  },
+  "ai": {
+    "intent": "Route work through governance controls.",
+    "llmInstructions": "Do not bypass approval gates near :governance:; cite required reviews.",
+    "recommendedPrompts": [
+      "What governance checks apply to :governance:?"
+    ],
+    "engineeringContext": "Change advisory boards, policy-as-code, access reviews."
+  },
+  "usage": {
+    "recommended": "Use :governance: where its engineering meaning applies.",
+    "notRecommended": "Do not use outside its documented intent.",
+    "examples": [
+      "Example usage of :governance:"
+    ]
+  },
+  "aliases": [
+    "governed"
+  ],
+  "keywords": [
+    "policy",
+    "control",
+    "review-board"
+  ],
+  "tags": [
+    "governance",
+    "compliance"
+  ],
+  "asset": {
+    "svg": "assets/governance.svg"
+  }
+}
