@@ -10,6 +10,10 @@ export function Agent(props: Omit<MegIconProps, "name">) {
   return <MegIcon name={"agent" as MegIconName} title="agent" {...props} />;
 }
 
+export function Asterism(props: Omit<MegIconProps, "name">) {
+  return <MegIcon name={"asterism" as MegIconName} title="asterism" {...props} />;
+}
+
 export function AuthorityMark(props: Omit<MegIconProps, "name">) {
   return <MegIcon name={"authority_mark" as MegIconName} title="authority mark" {...props} />;
 }
@@ -24,6 +28,10 @@ export function Collaboration(props: Omit<MegIconProps, "name">) {
 
 export function DoublePoint(props: Omit<MegIconProps, "name">) {
   return <MegIcon name={"double_point" as MegIconName} title="double point" {...props} />;
+}
+
+export function DoubtPoint(props: Omit<MegIconProps, "name">) {
+  return <MegIcon name={"doubt_point" as MegIconName} title="doubt point" {...props} />;
 }
 
 export function Elray(props: Omit<MegIconProps, "name">) {
@@ -46,6 +54,10 @@ export function Governance(props: Omit<MegIconProps, "name">) {
   return <MegIcon name={"governance" as MegIconName} title="governance" {...props} />;
 }
 
+export function Hedera(props: Omit<MegIconProps, "name">) {
+  return <MegIcon name={"hedera" as MegIconName} title="hedera" {...props} />;
+}
+
 export function HumanJudgement(props: Omit<MegIconProps, "name">) {
   return <MegIcon name={"human_judgement" as MegIconName} title="human judgement" {...props} />;
 }
@@ -60,6 +72,14 @@ export function IronyMark(props: Omit<MegIconProps, "name">) {
 
 export function LovePoint(props: Omit<MegIconProps, "name">) {
   return <MegIcon name={"love_point" as MegIconName} title="love point" {...props} />;
+}
+
+export function Manicule(props: Omit<MegIconProps, "name">) {
+  return <MegIcon name={"manicule" as MegIconName} title="manicule" {...props} />;
+}
+
+export function PercontationPoint(props: Omit<MegIconProps, "name">) {
+  return <MegIcon name={"percontation_point" as MegIconName} title="percontation point" {...props} />;
 }
 
 export function QuestionComma(props: Omit<MegIconProps, "name">) {

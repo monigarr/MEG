@@ -40,14 +40,19 @@ const CATALOG = [
   { id: "collaboration", shortcode: ":collaboration:", intent: "Multi-party coordination" },
   { id: "insight", shortcode: ":insight:", intent: "Preserve a non-obvious learning" },
   { id: "double_point", shortcode: ":double_point:", intent: "Dual / compound concern" },
+  { id: "doubt_point", shortcode: ":doubt_point:", intent: "Skeptical / unverified claim" },
   { id: "elray", shortcode: ":elray:", intent: "Challenge assumptions" },
   { id: "exclamation_comma", shortcode: ":exclamation_comma:", intent: "Urgent but incomplete" },
   { id: "friendly_period", shortcode: ":friendly_period:", intent: "Warm closure" },
+  { id: "hedera", shortcode: ":hedera:", intent: "Soft paragraph / ornamental break" },
   { id: "irony_mark", shortcode: ":irony_mark:", intent: "Ironic / non-literal" },
   { id: "love_point", shortcode: ":love_point:", intent: "Appreciation / care" },
+  { id: "manicule", shortcode: ":manicule:", intent: "Attention pointer for a critical passage" },
+  { id: "percontation_point", shortcode: ":percontation_point:", intent: "Rhetorical / open-ended question" },
   { id: "question_comma", shortcode: ":question_comma:", intent: "Open continuing question" },
   { id: "sar_mark", shortcode: ":sar_mark:", intent: "Sarcasm—not a literal requirement" },
   { id: "snark_mark", shortcode: ":snark_mark:", intent: "Snark—extract substance neutrally" },
+  { id: "asterism", shortcode: ":asterism:", intent: "Major section / narrative break" },
 ];
 
 const TITLE_MS = 3200;
@@ -266,7 +271,7 @@ function buildHtml() {
       <div class="brand">MoniGarr Engineering</div>
       <h1 class="title">MoniGarr Engineering Glyphs</h1>
       <p class="subtitle">An original visual language for engineering intent—governance, judgment, specifications, and agent scope.</p>
-      <div class="count-pill">19 GLYPHS · MEG</div>
+      <div class="count-pill">24 GLYPHS · MEG</div>
     </section>
 
     <section class="scene glyph-scene" id="scene-glyph">

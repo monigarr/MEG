@@ -1,0 +1,50 @@
+{
+  "id": "doubt_point",
+  "shortcode": ":doubt_point:",
+  "codepoint": "U+E015",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A stem and circle carrying a small question curve over an open base point.",
+    "semantic": "Marks a skeptical or unverified claim—contrary to certitude.",
+    "engineering": "Adjacent claim is unverified or contested; do not treat it as proven; surface uncertainty and evidence gaps."
+  },
+  "accessibility": {
+    "name": "Doubt point",
+    "description": "Indicates a skeptical or unverified claim."
+  },
+  "ai": {
+    "intent": "Keep skeptical or unverified claims from being treated as proven.",
+    "llmInstructions": "Under :doubt_point:, treat adjacent claims as unverified. Do not assert them as facts; surface uncertainty, missing evidence, and what would raise confidence.",
+    "recommendedPrompts": [
+      "What evidence is missing for the :doubt_point: claim?",
+      "Contrast the :doubt_point: statement with what :certitude: would require."
+    ],
+    "engineeringContext": "Unverified metrics, speculative root causes, draft hypotheses in incident notes."
+  },
+  "usage": {
+    "recommended": "End or mark statements the author wants read with skepticism.",
+    "notRecommended": "Do not mark proven or exhaustively tested logic—use :certitude: instead.",
+    "examples": [
+      "Latency is fine in production :doubt_point:",
+      "This race cannot happen :doubt_point:"
+    ]
+  },
+  "aliases": [
+    "doubt"
+  ],
+  "keywords": [
+    "skeptical",
+    "unverified",
+    "uncertainty",
+    "punctuation"
+  ],
+  "tags": [
+    "communication",
+    "language",
+    "punctuation",
+    "quality"
+  ],
+  "asset": {
+    "svg": "assets/doubt_point.svg"
+  }
+}

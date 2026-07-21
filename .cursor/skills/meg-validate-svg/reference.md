@@ -1,6 +1,6 @@
 # Naming notes (MEGS-0005)
 
-Compacted duplicates were removed. Shippable catalog is snake_case-only (19 glyphs).
+Compacted duplicates were removed. Shippable catalog is snake_case-only (24 glyphs).
 
 Forbidden basenames (must not reappear):
 

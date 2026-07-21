@@ -1,0 +1,48 @@
+{
+  "id": "asterism",
+  "shortcode": ":asterism:",
+  "codepoint": "U+E016",
+  "category": "Communication",
+  "meanings": {
+    "visual": "Three asterisk units arranged in a triangle.",
+    "semantic": "Marks a major break between sub-chapters or narrative sections.",
+    "engineering": "Treat preceding and following blocks as separate sections; do not merge context across the break."
+  },
+  "accessibility": {
+    "name": "Asterism",
+    "description": "Indicates a major section or narrative break."
+  },
+  "ai": {
+    "intent": "Preserve hard section boundaries in documents.",
+    "llmInstructions": "Treat :asterism: as a major structural break. Do not blend requirements, decisions, or narrative across the mark; summarize each side separately when asked.",
+    "recommendedPrompts": [
+      "Summarize the sections before and after :asterism: separately.",
+      "List decisions that belong only to the block after :asterism:."
+    ],
+    "engineeringContext": "ADRs with distinct phases, runbooks with major scene changes, long-form design docs."
+  },
+  "usage": {
+    "recommended": "Separate major narrative or document sections when a new heading is too heavy.",
+    "notRecommended": "Do not use for soft paragraph decoration—prefer :hedera:.",
+    "examples": [
+      "Background … :asterism: Proposal …",
+      "Incident timeline day 1 … :asterism: Day 2 recovery …"
+    ]
+  },
+  "aliases": [],
+  "keywords": [
+    "section",
+    "break",
+    "separator",
+    "punctuation"
+  ],
+  "tags": [
+    "communication",
+    "language",
+    "punctuation",
+    "documentation"
+  ],
+  "asset": {
+    "svg": "assets/asterism.svg"
+  }
+}

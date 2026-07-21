@@ -92,7 +92,7 @@ pnpm install
 pnpm run ci
 ```
 
-Success means: validation OK (19 glyphs), fonts/packages built, tests passed.
+Success means: validation OK (24 glyphs), fonts/packages built, tests passed.
 
 | You want to… | Do this |
 |--------------|---------|

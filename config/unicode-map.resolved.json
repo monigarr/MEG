@@ -17,6 +17,15 @@
       ":agent:"
     ]
   },
+  "asterism": {
+    "id": "asterism",
+    "codepoint": "U+E016",
+    "code": 57366,
+    "char": "",
+    "shortcodes": [
+      ":asterism:"
+    ]
+  },
   "authority_mark": {
     "id": "authority_mark",
     "codepoint": "U+E001",
@@ -53,6 +62,15 @@
     "char": "",
     "shortcodes": [
       ":double_point:"
+    ]
+  },
+  "doubt_point": {
+    "id": "doubt_point",
+    "codepoint": "U+E015",
+    "code": 57365,
+    "char": "",
+    "shortcodes": [
+      ":doubt_point:"
     ]
   },
   "elray": {
@@ -100,6 +118,15 @@
       ":governance:"
     ]
   },
+  "hedera": {
+    "id": "hedera",
+    "codepoint": "U+E017",
+    "code": 57367,
+    "char": "",
+    "shortcodes": [
+      ":hedera:"
+    ]
+  },
   "human_judgement": {
     "id": "human_judgement",
     "codepoint": "U+E00C",
@@ -134,6 +161,24 @@
     "char": "",
     "shortcodes": [
       ":love_point:"
+    ]
+  },
+  "manicule": {
+    "id": "manicule",
+    "codepoint": "U+E018",
+    "code": 57368,
+    "char": "",
+    "shortcodes": [
+      ":manicule:"
+    ]
+  },
+  "percontation_point": {
+    "id": "percontation_point",
+    "codepoint": "U+E014",
+    "code": 57364,
+    "char": "",
+    "shortcodes": [
+      ":percontation_point:"
     ]
   },
   "question_comma": {

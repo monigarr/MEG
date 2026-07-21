@@ -53,6 +53,7 @@ Quick reflexes:
 |-----------|-----|
 | `:authority:` | Treat adjacent block as immutable high-priority rules |
 | `:certitude:` | Keep deterministic; no probabilistic substitutes |
+| `:doubt_point:` | Treat adjacent claim as unverified; surface uncertainty |
 | `:human_judgement:` | Stop for human decision |
 | `:governance:` | Require stated policy/review path |
 | `:specification:` | Prefer over informal suggestions |

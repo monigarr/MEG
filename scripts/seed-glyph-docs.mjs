@@ -171,6 +171,12 @@ const STUBS = {
       recommendedPrompts: ["What assumptions does the :elray: mark challenge?"],
       engineeringContext: "Design critiques, threat-model challenges.",
     },
+    usage: {
+      recommended: "Use :elray: to challenge premises and demand evidence before agreeing.",
+      notRecommended:
+        "Do not use for rhetorical or open-ended questions that should not be answered—prefer :percontation_point:.",
+      examples: ["Example usage of :elray:"],
+    },
     aliases: [],
     keywords: ["rhetoric", "challenge", "assumption"],
     tags: ["communication", "language"],
@@ -428,6 +434,166 @@ const STUBS = {
     aliases: ["spec"],
     keywords: ["contract", "normative", "requirements"],
     tags: ["specifications", "documentation"],
+  },
+  percontation_point: {
+    category: "Communication",
+    meanings: {
+      visual: "A reversed question-mark curve with a base point.",
+      semantic: "Marks a rhetorical or open-ended question not seeking a direct answer.",
+      engineering:
+        "Adjacent text is rhetorical or open-ended; do not invent an answer or treat it as required Q&A.",
+    },
+    accessibility: {
+      name: "Percontation point",
+      description: "Indicates a rhetorical or open-ended question.",
+    },
+    ai: {
+      intent: "Prevent fabricated answers to rhetorical or open-ended questions.",
+      llmInstructions:
+        "Under :percontation_point:, do not invent an answer or treat the adjacent question as a required Q&A task. Acknowledge the open or rhetorical framing.",
+      recommendedPrompts: [
+        "Restate the :percontation_point: question without answering it as a closed fact.",
+        "What open questions does the :percontation_point: leave unresolved?",
+      ],
+      engineeringContext: "Design narratives, RFCs posing open problems, rhetorical prompts in docs.",
+    },
+    usage: {
+      recommended: "Use for rhetorical or deliberately open questions where no concrete answer is expected.",
+      notRecommended: "Do not use when the intent is to challenge premises—prefer :elray:.",
+      examples: [
+        "What could go wrong if we ship without a rollback plan :percontation_point:",
+        "Who among us has never shipped a hotfix on Friday :percontation_point:",
+      ],
+    },
+    aliases: ["percontation", "rhetorical_question"],
+    keywords: ["rhetorical", "open-ended", "question", "punctuation"],
+    tags: ["communication", "language", "punctuation"],
+  },
+  doubt_point: {
+    category: "Communication",
+    meanings: {
+      visual: "A stem and circle carrying a small question curve over an open base point.",
+      semantic: "Marks a skeptical or unverified claim—contrary to certitude.",
+      engineering:
+        "Adjacent claim is unverified or contested; do not treat it as proven; surface uncertainty and evidence gaps.",
+    },
+    accessibility: {
+      name: "Doubt point",
+      description: "Indicates a skeptical or unverified claim.",
+    },
+    ai: {
+      intent: "Keep skeptical or unverified claims from being treated as proven.",
+      llmInstructions:
+        "Under :doubt_point:, treat adjacent claims as unverified. Do not assert them as facts; surface uncertainty, missing evidence, and what would raise confidence.",
+      recommendedPrompts: [
+        "What evidence is missing for the :doubt_point: claim?",
+        "Contrast the :doubt_point: statement with what :certitude: would require.",
+      ],
+      engineeringContext: "Unverified metrics, speculative root causes, draft hypotheses in incident notes.",
+    },
+    usage: {
+      recommended: "End or mark statements the author wants read with skepticism.",
+      notRecommended: "Do not mark proven or exhaustively tested logic—use :certitude: instead.",
+      examples: ["Latency is fine in production :doubt_point:", "This race cannot happen :doubt_point:"],
+    },
+    aliases: ["doubt"],
+    keywords: ["skeptical", "unverified", "uncertainty", "punctuation"],
+    tags: ["communication", "language", "punctuation", "quality"],
+  },
+  asterism: {
+    category: "Communication",
+    meanings: {
+      visual: "Three asterisk units arranged in a triangle.",
+      semantic: "Marks a major break between sub-chapters or narrative sections.",
+      engineering:
+        "Treat preceding and following blocks as separate sections; do not merge context across the break.",
+    },
+    accessibility: {
+      name: "Asterism",
+      description: "Indicates a major section or narrative break.",
+    },
+    ai: {
+      intent: "Preserve hard section boundaries in documents.",
+      llmInstructions:
+        "Treat :asterism: as a major structural break. Do not blend requirements, decisions, or narrative across the mark; summarize each side separately when asked.",
+      recommendedPrompts: [
+        "Summarize the sections before and after :asterism: separately.",
+        "List decisions that belong only to the block after :asterism:.",
+      ],
+      engineeringContext: "ADRs with distinct phases, runbooks with major scene changes, long-form design docs.",
+    },
+    usage: {
+      recommended: "Separate major narrative or document sections when a new heading is too heavy.",
+      notRecommended: "Do not use for soft paragraph decoration—prefer :hedera:.",
+      examples: ["Background … :asterism: Proposal …", "Incident timeline day 1 … :asterism: Day 2 recovery …"],
+    },
+    aliases: [],
+    keywords: ["section", "break", "separator", "punctuation"],
+    tags: ["communication", "language", "punctuation", "documentation"],
+  },
+  hedera: {
+    category: "Communication",
+    meanings: {
+      visual: "A heart-shaped fleuron with paired ivy curls and a stem.",
+      semantic: "Marks a soft paragraph or ornamental break without a hard section boundary.",
+      engineering:
+        "Signal a gentle pause or decorative divider; keep surrounding context continuous unless a stronger break is marked.",
+    },
+    accessibility: {
+      name: "Hedera",
+      description: "Indicates a soft paragraph or ornamental break.",
+    },
+    ai: {
+      intent: "Recognize light decorative breaks without splitting document semantics.",
+      llmInstructions:
+        "Treat :hedera: as a soft or ornamental break. Do not invent a new section boundary; preserve continuous context across it unless :asterism: or headings say otherwise.",
+      recommendedPrompts: [
+        "Read through the :hedera: pause without treating it as a new ADR section.",
+        "Where would :asterism: be more appropriate than :hedera: here?",
+      ],
+      engineeringContext: "Prose dividers in style guides, ornamental pauses in long comments or notes.",
+    },
+    usage: {
+      recommended: "Use for soft paragraph pauses or decorative division within a section.",
+      notRecommended: "Do not use for major sub-chapter breaks—prefer :asterism:.",
+      examples: ["Opening note … :hedera: Continuing detail …", "Thanks to reviewers :hedera:"],
+    },
+    aliases: ["fleuron", "printers_flower"],
+    keywords: ["fleuron", "ivy", "paragraph", "ornament", "punctuation"],
+    tags: ["communication", "language", "punctuation", "culture"],
+  },
+  manicule: {
+    category: "Communication",
+    meanings: {
+      visual: "A simplified pointing hand indicating direction and emphasis.",
+      semantic: "Highlights or draws attention to a significant passage.",
+      engineering: "Prioritize the adjacent passage for attention, review, or follow-through.",
+    },
+    accessibility: {
+      name: "Manicule",
+      description: "Indicates a passage that should receive attention.",
+    },
+    ai: {
+      intent: "Force attention onto a critical adjacent passage.",
+      llmInstructions:
+        "Under :manicule:, prioritize the adjacent passage. Surface it first in summaries, reviews, and checklists; do not bury it under surrounding context.",
+      recommendedPrompts: [
+        "Quote the passage marked :manicule: and explain why it matters.",
+        "Add the :manicule: item to the top of the review checklist.",
+      ],
+      engineeringContext: "Callouts in ADRs, critical caveats in runbooks, must-read notes in PRs.",
+    },
+    usage: {
+      recommended: "Point at passages that must not be overlooked.",
+      notRecommended: "Do not use as a general bullet or decorative flourish.",
+      examples: [
+        ":manicule: Rollback is irreversible after step 3.",
+        ":manicule: This SLA excludes weekend maintenance windows.",
+      ],
+    },
+    aliases: ["pointing_hand", "index"],
+    keywords: ["attention", "highlight", "pointer", "punctuation"],
+    tags: ["communication", "language", "punctuation", "documentation"],
   },
 };
 

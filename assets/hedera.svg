@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5">
+  <path d="
+M32 48
+L20 32
+A7 7 0 0 1 30 20
+L32 24
+L34 20
+A7 7 0 0 1 44 32
+Z"></path>
+  <path d="M18 28Q12 22 14 14"></path>
+  <path d="M46 28Q52 22 50 14"></path>
+  <path d="M32 48V56"></path>
+</svg>

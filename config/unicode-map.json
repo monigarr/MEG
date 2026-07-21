@@ -74,5 +74,25 @@
   "specification": {
     "codepoint": "U+E013",
     "shortcodes": [":specification:"]
+  },
+  "percontation_point": {
+    "codepoint": "U+E014",
+    "shortcodes": [":percontation_point:"]
+  },
+  "doubt_point": {
+    "codepoint": "U+E015",
+    "shortcodes": [":doubt_point:"]
+  },
+  "asterism": {
+    "codepoint": "U+E016",
+    "shortcodes": [":asterism:"]
+  },
+  "hedera": {
+    "codepoint": "U+E017",
+    "shortcodes": [":hedera:"]
+  },
+  "manicule": {
+    "codepoint": "U+E018",
+    "shortcodes": [":manicule:"]
   }
 }

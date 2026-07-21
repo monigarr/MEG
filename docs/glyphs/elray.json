@@ -21,8 +21,8 @@
     "engineeringContext": "Design critiques, threat-model challenges."
   },
   "usage": {
-    "recommended": "Use :elray: where its engineering meaning applies.",
-    "notRecommended": "Do not use outside its documented intent.",
+    "recommended": "Use :elray: to challenge premises and demand evidence before agreeing.",
+    "notRecommended": "Do not use for rhetorical or open-ended questions that should not be answered—prefer :percontation_point:.",
     "examples": [
       "Example usage of :elray:"
     ]

@@ -1,0 +1,51 @@
+{
+  "id": "manicule",
+  "shortcode": ":manicule:",
+  "codepoint": "U+E018",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A simplified pointing hand indicating direction and emphasis.",
+    "semantic": "Highlights or draws attention to a significant passage.",
+    "engineering": "Prioritize the adjacent passage for attention, review, or follow-through."
+  },
+  "accessibility": {
+    "name": "Manicule",
+    "description": "Indicates a passage that should receive attention."
+  },
+  "ai": {
+    "intent": "Force attention onto a critical adjacent passage.",
+    "llmInstructions": "Under :manicule:, prioritize the adjacent passage. Surface it first in summaries, reviews, and checklists; do not bury it under surrounding context.",
+    "recommendedPrompts": [
+      "Quote the passage marked :manicule: and explain why it matters.",
+      "Add the :manicule: item to the top of the review checklist."
+    ],
+    "engineeringContext": "Callouts in ADRs, critical caveats in runbooks, must-read notes in PRs."
+  },
+  "usage": {
+    "recommended": "Point at passages that must not be overlooked.",
+    "notRecommended": "Do not use as a general bullet or decorative flourish.",
+    "examples": [
+      ":manicule: Rollback is irreversible after step 3.",
+      ":manicule: This SLA excludes weekend maintenance windows."
+    ]
+  },
+  "aliases": [
+    "pointing_hand",
+    "index"
+  ],
+  "keywords": [
+    "attention",
+    "highlight",
+    "pointer",
+    "punctuation"
+  ],
+  "tags": [
+    "communication",
+    "language",
+    "punctuation",
+    "documentation"
+  ],
+  "asset": {
+    "svg": "assets/manicule.svg"
+  }
+}

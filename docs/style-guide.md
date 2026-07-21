@@ -42,7 +42,7 @@ Unicode authority: [`config/unicode-map.json`](../config/unicode-map.json).
 
 ---
 
-## Full catalog (19)
+## Full catalog (24)
 
 Each row links to MEGS-0004 metadata (meanings, a11y, AI prompts).
 
@@ -75,12 +75,17 @@ Each row links to MEGS-0004 metadata (meanings, a11y, AI prompts).
 
 | Shortcodes | Id | Codepoint | One-line intent | Meta |
 |------------|-----|-----------|-----------------|------|
+| `:asterism:` | `asterism` | U+E016 | Major section / narrative break | [JSON](glyphs/asterism.json) |
 | `:double_point:` | `double_point` | U+E006 | Dual / compound concern | [JSON](glyphs/double_point.json) |
+| `:doubt_point:` | `doubt_point` | U+E015 | Skeptical / unverified claim | [JSON](glyphs/doubt_point.json) |
 | `:elray:` | `elray` | U+E007 | Challenge assumptions | [JSON](glyphs/elray.json) |
 | `:exclamation_comma:` | `exclamation_comma` | U+E008 | Urgent but incomplete | [JSON](glyphs/exclamation_comma.json) |
 | `:friendly_period:` | `friendly_period` | U+E00A | Warm closure | [JSON](glyphs/friendly_period.json) |
+| `:hedera:` | `hedera` | U+E017 | Soft paragraph / ornamental break | [JSON](glyphs/hedera.json) |
 | `:irony_mark:` | `irony_mark` | U+E00E | Ironic / non-literal | [JSON](glyphs/irony_mark.json) |
 | `:love_point:` | `love_point` | U+E00F | Appreciation / care | [JSON](glyphs/love_point.json) |
+| `:manicule:` | `manicule` | U+E018 | Attention pointer for a critical passage | [JSON](glyphs/manicule.json) |
+| `:percontation_point:` | `percontation_point` | U+E014 | Rhetorical / open-ended question | [JSON](glyphs/percontation_point.json) |
 | `:question_comma:` | `question_comma` | U+E010 | Open continuing question | [JSON](glyphs/question_comma.json) |
 | `:sar_mark:` | `sar_mark` | U+E011 | Sarcasm—not a literal requirement | [JSON](glyphs/sar_mark.json) |
 | `:snark_mark:` | `snark_mark` | U+E012 | Snark—extract substance neutrally | [JSON](glyphs/snark_mark.json) |
@@ -100,6 +105,12 @@ Each row links to MEGS-0004 metadata (meanings, a11y, AI prompts).
 - **Human:** Mark proven or exhaustively tested deterministic logic.
 - **Agent:** Do not refactor adjacent logic into probabilistic alternatives.
 - **Detail:** [glyphs/certitude_point.json](glyphs/certitude_point.json)
+
+### `:doubt_point:` (`doubt_point`, U+E015)
+
+- **Human:** Mark skeptical or unverified claims—the contrary of certitude.
+- **Agent:** Do not treat adjacent claims as proven; surface uncertainty and evidence gaps.
+- **Detail:** [glyphs/doubt_point.json](glyphs/doubt_point.json)
 
 ---
 

@@ -1,0 +1,50 @@
+{
+  "id": "percontation_point",
+  "shortcode": ":percontation_point:",
+  "codepoint": "U+E014",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A reversed question-mark curve with a base point.",
+    "semantic": "Marks a rhetorical or open-ended question not seeking a direct answer.",
+    "engineering": "Adjacent text is rhetorical or open-ended; do not invent an answer or treat it as required Q&A."
+  },
+  "accessibility": {
+    "name": "Percontation point",
+    "description": "Indicates a rhetorical or open-ended question."
+  },
+  "ai": {
+    "intent": "Prevent fabricated answers to rhetorical or open-ended questions.",
+    "llmInstructions": "Under :percontation_point:, do not invent an answer or treat the adjacent question as a required Q&A task. Acknowledge the open or rhetorical framing.",
+    "recommendedPrompts": [
+      "Restate the :percontation_point: question without answering it as a closed fact.",
+      "What open questions does the :percontation_point: leave unresolved?"
+    ],
+    "engineeringContext": "Design narratives, RFCs posing open problems, rhetorical prompts in docs."
+  },
+  "usage": {
+    "recommended": "Use for rhetorical or deliberately open questions where no concrete answer is expected.",
+    "notRecommended": "Do not use when the intent is to challenge premises—prefer :elray:.",
+    "examples": [
+      "What could go wrong if we ship without a rollback plan :percontation_point:",
+      "Who among us has never shipped a hotfix on Friday :percontation_point:"
+    ]
+  },
+  "aliases": [
+    "percontation",
+    "rhetorical_question"
+  ],
+  "keywords": [
+    "rhetorical",
+    "open-ended",
+    "question",
+    "punctuation"
+  ],
+  "tags": [
+    "communication",
+    "language",
+    "punctuation"
+  ],
+  "asset": {
+    "svg": "assets/percontation_point.svg"
+  }
+}

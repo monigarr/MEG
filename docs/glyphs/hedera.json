@@ -1,0 +1,52 @@
+{
+  "id": "hedera",
+  "shortcode": ":hedera:",
+  "codepoint": "U+E017",
+  "category": "Communication",
+  "meanings": {
+    "visual": "A heart-shaped fleuron with paired ivy curls and a stem.",
+    "semantic": "Marks a soft paragraph or ornamental break without a hard section boundary.",
+    "engineering": "Signal a gentle pause or decorative divider; keep surrounding context continuous unless a stronger break is marked."
+  },
+  "accessibility": {
+    "name": "Hedera",
+    "description": "Indicates a soft paragraph or ornamental break."
+  },
+  "ai": {
+    "intent": "Recognize light decorative breaks without splitting document semantics.",
+    "llmInstructions": "Treat :hedera: as a soft or ornamental break. Do not invent a new section boundary; preserve continuous context across it unless :asterism: or headings say otherwise.",
+    "recommendedPrompts": [
+      "Read through the :hedera: pause without treating it as a new ADR section.",
+      "Where would :asterism: be more appropriate than :hedera: here?"
+    ],
+    "engineeringContext": "Prose dividers in style guides, ornamental pauses in long comments or notes."
+  },
+  "usage": {
+    "recommended": "Use for soft paragraph pauses or decorative division within a section.",
+    "notRecommended": "Do not use for major sub-chapter breaks—prefer :asterism:.",
+    "examples": [
+      "Opening note … :hedera: Continuing detail …",
+      "Thanks to reviewers :hedera:"
+    ]
+  },
+  "aliases": [
+    "fleuron",
+    "printers_flower"
+  ],
+  "keywords": [
+    "fleuron",
+    "ivy",
+    "paragraph",
+    "ornament",
+    "punctuation"
+  ],
+  "tags": [
+    "communication",
+    "language",
+    "punctuation",
+    "culture"
+  ],
+  "asset": {
+    "svg": "assets/hedera.svg"
+  }
+}
