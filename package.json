@@ -27,7 +27,7 @@
     "playwright": "^1.61.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "svelte": "^5.19.0",
+    "svelte": "^5.56.7",
     "svgo": "^3.3.2",
     "svgtofont": "^4.2.0",
     "tsup": "^8.3.5",
