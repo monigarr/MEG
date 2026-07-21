@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Regenerated glyph catalog demo video for the full 24-glyph set (`assets/media/meg-glyph-catalog.mp4`)
 - README restructured for busy-engineer onboarding (use / consume / develop paths first)
 - Removed compacted duplicate SVGs; renamed `sarmark` → `sar_mark`
 - Documentation overhaul: getting-started, docs index, dual-audience README / AGENTS / style guide
