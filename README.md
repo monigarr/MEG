@@ -60,9 +60,9 @@ pnpm install
 pnpm run ci          # validate → build → test
 ```
 
-<video src="https://github.com/monigarr/MEG/releases/download/demo-assets/pnpm-install-build.mp4" controls muted playsinline width="100%">
-  <a href="https://github.com/monigarr/MEG/releases/download/demo-assets/pnpm-install-build.mp4">pnpm install and build demo</a>
-</video>
+[![pnpm install and build](assets/media/pnpm-install-build-preview.gif)](assets/media/pnpm-install-build.mp4)
+
+<sub>[Full MP4](assets/media/pnpm-install-build.mp4) · mute CLI walkthrough</sub>
 
 | Script | Purpose |
 |--------|---------|
@@ -115,9 +115,9 @@ Same idea via `@monigarr/meg-vue` and `@monigarr/meg-svelte`—see each package 
 
 Full table and LLM guidance: [Style guide](docs/style-guide.md). Machine metadata: [`docs/glyphs/*.json`](docs/glyphs/).
 
-<video src="https://github.com/monigarr/MEG/releases/download/demo-assets/meg-glyph-catalog.mp4" controls muted playsinline width="100%">
-  <a href="https://github.com/monigarr/MEG/releases/download/demo-assets/meg-glyph-catalog.mp4">MEG glyph catalog demo</a>
-</video>
+[![MEG glyph catalog](assets/media/meg-glyph-catalog-preview.gif)](assets/media/meg-glyph-catalog.mp4)
+
+<sub>[Full MP4](assets/media/meg-glyph-catalog.mp4) · silent showcase of all 19 glyphs</sub>
 
 | Shortcode | Intent (one line) |
 |-----------|-------------------|
