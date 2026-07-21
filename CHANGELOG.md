@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - pnpm monorepo packages (`@monigarr/meg-*`), font pipeline, VS Code + Obsidian scaffolds
 - `pnpm validate` / `pnpm test` / `pnpm ci` and GitHub Actions CI + release workflows
 - Triple licensing (MIT / SIL OFL 1.1 / CC BY 4.0)
-- README demo videos: mute `pnpm` install/build walkthrough and silent full-catalog showcase (`assets/media/`)
+- README demo videos: mute `pnpm` install/build walkthrough and silent full-catalog showcase (`assets/media/`, hosted via `demo-assets` release for GitHub players)
 
 ### Changed
 

@@ -60,7 +60,9 @@ pnpm install
 pnpm run ci          # validate → build → test
 ```
 
-![pnpm install and build](assets/media/pnpm-install-build.mp4)
+<video src="https://github.com/monigarr/MEG/releases/download/demo-assets/pnpm-install-build.mp4" controls muted playsinline width="100%">
+  <a href="https://github.com/monigarr/MEG/releases/download/demo-assets/pnpm-install-build.mp4">pnpm install and build demo</a>
+</video>
 
 | Script | Purpose |
 |--------|---------|
@@ -113,7 +115,9 @@ Same idea via `@monigarr/meg-vue` and `@monigarr/meg-svelte`—see each package 
 
 Full table and LLM guidance: [Style guide](docs/style-guide.md). Machine metadata: [`docs/glyphs/*.json`](docs/glyphs/).
 
-![MEG glyph catalog](assets/media/meg-glyph-catalog.mp4)
+<video src="https://github.com/monigarr/MEG/releases/download/demo-assets/meg-glyph-catalog.mp4" controls muted playsinline width="100%">
+  <a href="https://github.com/monigarr/MEG/releases/download/demo-assets/meg-glyph-catalog.mp4">MEG glyph catalog demo</a>
+</video>
 
 | Shortcode | Intent (one line) |
 |-----------|-------------------|
