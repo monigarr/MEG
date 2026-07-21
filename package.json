@@ -17,12 +17,14 @@
     "test": "vitest run",
     "ci": "pnpm run validate && pnpm run build && pnpm run test",
     "sync-version": "node scripts/sync-version-from-tag.mjs",
-    "seed:glyphs": "node scripts/seed-glyph-docs.mjs"
+    "seed:glyphs": "node scripts/seed-glyph-docs.mjs",
+    "render:catalog-video": "node scripts/render-glyph-catalog-video.mjs"
   },
   "devDependencies": {
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "esbuild": "^0.24.2",
+    "playwright": "^1.61.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "svelte": "^5.19.0",
