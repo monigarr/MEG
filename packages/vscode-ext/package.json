@@ -32,7 +32,7 @@
     "vscode:prepublish": "pnpm run build"
   },
   "devDependencies": {
-    "@types/vscode": "^1.85.0"
+    "@types/vscode": "^1.136.0"
   },
   "dependencies": {
     "@monigarr/meg-parser": "workspace:*"
