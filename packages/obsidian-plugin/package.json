@@ -11,6 +11,6 @@
     "@monigarr/meg-parser": "workspace:*"
   },
   "devDependencies": {
-    "obsidian": "^1.7.2"
+    "obsidian": "^1.14.4"
   }
 }
