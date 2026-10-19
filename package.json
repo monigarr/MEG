@@ -21,11 +21,11 @@
     "render:catalog-video": "node scripts/render-glyph-catalog-video.mjs"
   },
   "devDependencies": {
-    "@types/react": "^19.0.8",
+    "@types/react": "^19.3.0",
     "@types/react-dom": "^19.0.3",
     "esbuild": "^0.24.2",
     "playwright": "^1.61.1",
-    "react": "^19.0.0",
+    "react": "^19.3.1",
     "react-dom": "^19.0.0",
     "svelte": "^5.19.0",
     "svgo": "^3.3.2",
